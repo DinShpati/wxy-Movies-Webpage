@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <title>Wxy Movies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar" id="navbar">
+        <ul class="nav-content-container">
+            <li class="nav-link-container">
+                <a href="#" class="nav-link logo">WXY Movies</a>
+            </li>
+            <li class="nav-link-container" style="padding-top: 12px;">
+                <a href="#" class="nav-link sign-in">Sign-in</a>
+            </li>
+        </ul>
+    </header>
+    <main class="section-1">
+        <h1 class="super-large-header">Unlimited AD free<br> movies and TV shows</h1>
+        <h1 class="large-header">Watch anywhere at anytime</h1><br>
+        <a href="#" class="trial-btn">Get One Month Free Trial &#8618;</a>
+    </main>
+    <div class='section-2'>
+        <div class="container half">
+            <div class="half-container">
+                <h1 class="super-large-header">Watch on your TV</h1>
+                <h1 class="large-header">Enjoy on your Smart TV, XBox One, PlayStation, Apple TV, and More!</h1><br><br>
+                <a href="#" class="trial-btn-two">Get One Month Free Trial &#8618;</a>
+            </div>
+            <div class="half-container tv">
+                <img src="avengers.gif" class="tv-gif">
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="container half" style="grid-column-gap: 0;">
+            <div class="half-container" align="center">
+                <img src="iphone-image.png" class="iphone-img">
+                <h1 class="large-header">Downloading...</h1>
+            </div>
+            <div class="half-container"><br><br>
+                <h1 class="super-large-header">Download your movies to watch on the go.</h1>
+                <h1 class="large-header">Save your  Mobile data and watch your favorite shows offline.</h1><br><br>
+                <a href="#" class="trial-btn-two">Get One Month Free Trial &#8618;</a>
+            </div>
+        </div>
+    </div>
+    <div class="section-4">
+        <div class="container half">
+            <div class="half-container">
+                <h1 class="super-large-header">Watch on any device.</h1>
+                <h1 class="large-header">Stream unlimited movies and TV shows on <br>your phone, tablet, laptop, and TV without<br> paying more.</h1><br><br>
+                <a href="#" class="trial-btn-two">Get One Month Free Trial &#8618;</a>
+            </div>
+            <div class="half-container">
+                <img src="IOS_FAN.png" class="three-devices">
+            </div>
+        </div>
+    </div>
+    <div class="section-5" align="center">
+       <h1 class="super-large-header">Frequently Asked Questions</h1>
+        <ul class="ask-a-question">
+            <li class="ask-q-link">
+                <h1></h1>
+                <p class="link"></p>
+                
+            </li>
+            <li class="ask-q-link">
+              <button onclick="myFunction()" class="dropbtn">What is WXY Movies?</button>
+              <div id="myDropdown" class="dropdown-content">
+                    <hr>
+                    <h1 class="large-header">WXY Movies is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+                        <br><br>
+                        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</h1>
+                </div>
+            </li>
+            <li class="ask-q-link">
+                <h1></h1>
+                <p class="link"></p>
+                
+            </li>
+            <li class="ask-q-link">
+                <h1></h1>
+                <p class="link"></p>
+                
+            </li>
+            <li class="ask-q-link">
+                <h1></h1>
+                <p class="link"></p>
+                
+            </li>
+            <li class="ask-q-link">
+                <h1></h1>
+                <p class="link"></p>
+                
+            </li>
+        </ul>
+    </div>
+    <script>
+                /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>

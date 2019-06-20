@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+}
+:root{
+    /* ALL VARIABLES GO IN HERE*/
+    --main-color: rgb(214, 0, 0);
+    --text-color-2: black;
+    --text-color: white;
+    --bg-color: black;
+    --logo-font: fantasy;
+    --main-font: sans-serif;
+}
+.navbar{
+    background-color: var(--main-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-content-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.logo{
+    color: var(--text-color-2);
+    font-size: 33px;
+    font-weight: 500;
+    font-family: var(--logo-font);
+    text-shadow: 
+      0 -1px 0 black, 
+      0 1px 0 #2e2e2e,
+      0 1px 40px rgba(0, 0, 0, 0.8),
+      0 22px 30px rgba(0, 0, 0, 0.8);
+}
+.sign-in{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    padding:8px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+
+/*Section-1*/
+
+.section-1{
+    margin-top: 74px;
+    background-image: url(section-1-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 230px;
+    border-bottom: 11px solid var(--main-color);
+}
+.super-large-header{
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 36px;
+    font-weight: 550;
+}
+.large-header{
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 300;
+}
+.trial-btn{
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+/* Section 2 */
+.section-2{
+    
+    background-color:var(--bg-color);
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 500px;
+    border-bottom: 11px solid gray;
+}
+.container{
+    padding-top: 50px;
+    display: grid;
+    
+}
+.half{
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 40px;
+    
+}
+.tv{
+    background-image: url(tv.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 340px;
+}
+.trial-btn-two{
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.tv-gif{
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-right: px;
+    width: 100%;
+    max-width: 522px;
+}
+
+/* Section 3*/
+
+.section-3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--main-color);
+    border-bottom: 11px solid gray;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.iphone-img{
+    width: 70%;
+}
+
+/* Section-4*/
+
+.section-4{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 11px solid gray;
+    background-color: var(--bg-color);
+}
+.three-devices{
+   
+}
+
+/*Section-5*/
+
+.section-5{
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    background-color: var(--bg-color);
+}
+
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: gray;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 1038px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
