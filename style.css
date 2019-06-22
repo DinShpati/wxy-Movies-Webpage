@@ -47,7 +47,15 @@ body{
     font-family:sans-serif;
     font-size: 15px;
 }
-
+.sign-in:hover{
+    background: repeating-linear-gradient(
+      45deg,
+      red 0px,
+      red 40px,
+      black 40px,
+      black 80px
+    );
+}
 /*Section-1*/
 
 .section-1{
@@ -83,7 +91,17 @@ body{
     padding: 10px;
     border-radius: 3px;
 }
-
+.trial-btn:hover{
+    background: repeating-linear-gradient(
+      45deg,
+      red 0px,
+      red 20px,
+      var(--main-color) 20px,
+      var(--main-color) 40px,
+      black 40px,
+      black 60px
+    );
+}
 
 /* Section 2 */
 .section-2{
@@ -119,6 +137,19 @@ body{
     border: solid 1px white;
     padding: 10px;
     border-radius: 3px;
+    animation-name: trial-btn-two;
+    animation-duration: 5s;
+}
+.trial-btn-two:hover{
+    background: linear-gradient(
+      45deg,
+      whitesmoke 0px,
+      white 20px,
+      white 20px,
+      gray 40px,
+      black 40px,
+      gray 60px
+    );
 }
 .tv-gif{
     padding-left: 8px;

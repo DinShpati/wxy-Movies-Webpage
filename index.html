@@ -181,6 +181,7 @@
               var openDropdown = dropdowns[i];
               if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
+                target.parentNode.querySelector('.toggle1').classList.toggle("burger");
               }
             }
           }
