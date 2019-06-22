@@ -4,6 +4,9 @@
     <title>Wxy Movies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css">
+    
+    <!--Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
 <body>
     
@@ -68,41 +71,105 @@
                 
             </li>
             <li class="ask-q-link">
-              <button onclick="myFunction()" class="dropbtn">What is WXY Movies?</button>
+              <button onclick="myFunction(this)" class="dropbtn">What is WXY Movies? <div class="toggle"><span class="toggle1"></span><span class="toggle2"></span></div></button>
               <div id="myDropdown" class="dropdown-content">
                     <hr>
                     <h1 class="large-header">WXY Movies is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
                         <br><br>
                         You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</h1>
                 </div>
-            </li>
+            </li><br>
             <li class="ask-q-link">
-                <h1></h1>
-                <p class="link"></p>
+                <button onclick="myFunction(this)" class="dropbtn">How much does WXY Movies cost? <div class="toggle"><span class="toggle1"></span><span class="toggle2"></span></div></button>
+              <div id="myDropdown1" class="dropdown-content">
+                    <hr>
+                    <h1 class="large-header">Watch WXY Movies on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one low fixed monthly fee. Plans start from $17.99 a month. No extra costs or contracts.</h1>
+                </div>
                 
-            </li>
+            </li><br>
             <li class="ask-q-link">
-                <h1></h1>
-                <p class="link"></p>
+                <button onclick="myFunction(this)" class="dropbtn">Where can I watch? <div class="toggle"><span class="toggle1"></span><span class="toggle2"></span></div></button>
+              <div id="myDropdown2" class="dropdown-content">
+                    <hr>
+                    <h1 class="large-header">Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.<br><br>
+
+                    You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</h1>
+                </div>
                 
-            </li>
+            </li><br>
             <li class="ask-q-link">
-                <h1></h1>
-                <p class="link"></p>
+                <button onclick="myFunction(this)" class="dropbtn">How do I cancel? <div class="toggle"><span class="toggle1"></span><span class="toggle2"></span></div></button>
+              <div id="myDropdown3" class="dropdown-content">
+                    <hr>
+                    <h1 class="large-header">WXY is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</h1>
+                </div>
                 
-            </li>
+            </li><br>
             <li class="ask-q-link">
-                <h1></h1>
-                <p class="link"></p>
+                <button onclick="myFunction(this)" class="dropbtn">What can I watch on WXY Movies? <div class="toggle"><span class="toggle1"></span><span class="toggle2"></span></div></button>
+              <div id="myDropdown4" class="dropdown-content">
+                    <hr>
+                    <h1 class="large-header">WXY Movies has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want. Join free for 30 days to see everything Netflix has to offer.</h1>
+                </div>
                 
             </li>
         </ul>
+        <div class="last-btn" style="margin-top: 50px;">
+            <a href="#" class="trial-btn">Get One Month Free Trial &#8618;</a>
+        </div>
+    </div>
+    <div class="section-6">
+        <h4 class="call-num">Questions? Call <a href="" class="phone">0850-390-7444</a></h4>
+        <div class="container-special">
+            <div class="column-4">
+                <ul class="footer-container">
+                    <li class="footer-links"><a href="#" class="footer-a">FAQ</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Investor Relations</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Terms of Use</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Contact Us</a></li>
+                </ul>
+                <br>
+                <select class="langBtn">
+                  <option value="English" class="langOptions">English</option>
+                  <option value="Turkish" class="langOptions">Turkce</option>
+                  <option value="Albanian" class="langOptions">Shqipt</option>
+                  <option value="Spanish" class="langOptions">Espaniol</option>
+                </select>
+                <br>
+                <h6 style="color: gray; font-family: var(--main-font); font-size: 13px; font-weight: 200;">WXY Movies - English</h6>
+            </div>
+            <div class="column-4">
+                <ul class="footer-container">
+                    <li class="footer-links"><a href="#" class="footer-a">Help Center</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Jobs</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Privacy</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Speed Test</a></li>
+                </ul>
+            </div>
+            <div class="column-4">
+                <ul class="footer-container">
+                    <li class="footer-links"><a href="#" class="footer-a">Account</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Redeem Gift Cards</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Cookie Preferences</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Legal Notices</a></li>
+                </ul>
+            </div>
+            <div class="column-4">
+                <ul class="footer-container">
+                    <li class="footer-links"><a href="#" class="footer-a">Media Center</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Ways to Watch</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">Corporate Information</a></li>
+                    <li class="footer-links"><a href="#" class="footer-a">WXY Movies Originals</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script>
                 /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
+        var myFunction = function myFunction(target) {
+            target.parentNode.querySelector('.dropdown-content').classList.toggle("show");
+            target.parentNode.querySelector('.toggle1').classList.toggle("burger");
         }
 
         // Close the dropdown if the user clicks outside of it
@@ -118,6 +185,16 @@
             }
           }
         }
+        
     </script>
+    <script type="text/javascript">
+        $(document).ready(function){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+            })
+        }
+    </script>
+       
+      
 </body>
 </html>
